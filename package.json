@@ -1,0 +1,57 @@
+{
+    "name": "spotful-google-maps-app",
+    "version": "0.1.0",
+    "description": "developed by Abdalla Ahmed & Spotful Team",
+    "repository": "https://abdalla1990@bitbucket.org/spotinteractive/Spotful-app-google-maps.git",
+    "main": "index.js",
+    "scripts": {
+        "build": "webpack ",
+        "deploy": "webpack -p --env production",
+        "start": " nodemon server/server.js",
+        "dev": "webpack --env dev --watch"
+    },
+    "engines": {
+        "node": "v8.5.0"
+    },
+    "author": "Abdalla Ahmed & Spotful Team",
+    "license": "ISC",
+    "dependencies": {
+        "axios": "^0.17.1",
+        "babel-cli": "6.24.1",
+        "babel-core": "6.25.0",
+        "babel-loader": "7.1.1",
+        "babel-plugin-transform-class-properties": "6.24.1",
+        "babel-preset-env": "1.5.2",
+        "browser-sync": "^2.24.4",
+        "css-loader": "0.28.4",
+        "express": "^4.16.3",
+        "image-webpack-loader": "^3.4.2",
+        "jquery": "^3.2.1",
+        "jsonp": "^0.2.1",
+        "node-sass": "4.5.3",
+        "nodemon": "^1.17.4",
+        "normalize.css": "7.0.0",
+        "react": "^16.3.2",
+        "react-addons-shallow-compare": "15.6.0",
+        "react-dates": "12.7.0",
+        "react-dom": "^16.3.2",
+        "react-google-maps": "^9.4.5",
+        "react-redux": "5.0.5",
+        "react-router-dom": "4.2.2",
+        "sass-loader": "6.0.6",
+        "style-loader": "0.18.2",
+        "uglifyjs-webpack-plugin": "^1.2.5",
+        "webpack": "^3.12.0",
+        "webpack-s3-plugin": "^1.0.0-rc.0"
+    },
+    "devDependencies": {
+        "babel-plugin-transform-object-rest-spread": "^6.26.0",
+        "browser-sync-webpack-plugin": "^2.2.2",
+        "clean-webpack-plugin": "^0.1.19",
+        "copy-webpack-plugin": "^4.5.1",
+        "webpack-concat-plugin": "^2.4.2",
+        "webpack-merge": "^4.1.2",
+        "babel-preset-react": "^6.24.1",
+        "spotful-ui": "git+ssh://git@bitbucket.org/spotinteractive/spotful-ui.git#v0.1.0"
+    }
+}

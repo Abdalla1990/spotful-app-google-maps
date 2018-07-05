@@ -1,0 +1,6 @@
+{
+    "presets": ["env", "react"],
+    "plugins": ["transform-class-properties", "transform-object-rest-spread"]
+        // converts the regular js classes into an autobinded classes where constructors dont have to be instantiated to bind a function
+
+}

@@ -1,0 +1,27 @@
+{
+    "title" : "spotful-google-maps-app",
+    "author": "Abdalla Ahmed + Spotful Team",
+    "template" : "https://s3.amazonaws.com/spotful-apps/spotful-google-maps-app/0.1.0/index.html",
+    "manifest_version": "1.0",
+
+    "fields": [
+
+        {
+            "name": "search",
+            "type": "text",
+            "label": "Enter a location",
+            "placeholder": "Montreal"
+            
+        },
+        {
+            "name": "zoom",
+            "type": "number",
+            "label": "Zoom level ",
+            "default": 15
+        }
+        
+        
+    ]
+}
+
+
