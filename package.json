@@ -2,7 +2,7 @@
     "name": "spotful-google-maps-app",
     "version": "0.1.0",
     "description": "developed by Abdalla Ahmed & Spotful Team",
-    "repository": "https://abdalla1990@bitbucket.org/spotinteractive/Spotful-app-google-maps.git",
+    "repository": "https://github.com/Abdalla1990/spotful-app-google-maps.git",
     "main": "index.js",
     "scripts": {
         "build": "webpack ",

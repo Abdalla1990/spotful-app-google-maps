@@ -13,8 +13,8 @@ app.use(function(req, res, next) {
 app.use(express.static(publicPath));
 
 app.get('/',(req,res)=>{
-
-    console.log('redirect', res)
+    console.log('DEMO', demoPath)
+    // console.log('redirect', res)
     res.redirect('/demo');
 });
 
@@ -22,7 +22,7 @@ app.get('/',(req,res)=>{
 
 app.get('/demo',(req,res)=>{
 
-    console.log('redirect', res)
+    
     res.sendFile(demoPath);
 });
 
