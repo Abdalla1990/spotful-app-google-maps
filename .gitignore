@@ -2,5 +2,4 @@ package-lock.json
 .DS_Store
 /node_modules
 /.git
-/dist
 aws.config
